@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Payment Gateway</title>
+    <link rel="icon" type="image/jpeg" href="logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="Paymentnew.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">home</a></li>
+      </ul>
+    </nav>
+    <br />
+    <br />
+    <div class="quote">
+      <p>
+        "Movies will make you famous; television will make you rich,
+        <br />but theater will make you good."
+      </p>
+    </div>
+    <div class="last-step">
+      <p>Last step to join us and become a part of</p>
+    </div>
+    <div class="logo">
+      <h1>LCA</h1>
+    </div>
+    <div class="app-container">
+      <div class="top-box">
+        <p style="font-size: 24px">
+          <i>PAYMENT<br />GATEWAY</i>
+        </p>
+      </div>
+      <div class="middle-box">
+        <h1>1599<span>$</span></h1>
+      </div>
+      <div class="bottom-box">
+        <button type="button" class="payment-opt-button">
+          Pay with PayPal
+        </button>
+        <button type="button" class="payment-opt-button">
+          Pay using Netbanking
+        </button>
+      </div>
+      <div class="card-details">
+        <p>Pay using credit or debit card</p>
+        <div class="card-num-feild-group">
+          <label>Card Number</label><br />
+          <input
+            type="text"
+            class="card-num-feild"
+            placeholder="xxxx-xxxx-xxxx-xxxx"
+          />
+        </div>
+        <div class="date-feild-group">
+          <label>Expiry Date</label><br />
+          <input type="text" class="date-feild" placeholder="mm" required />
+          <input type="text" class="date-feild" placeholder="yyyy" />
+        </div>
+        <div class="cvc-feild-group">
+          <label>cvc</label><br />
+
+          <input type="password" class="cvc-feild" required placeholder="xxx" />
+        </div>
+        <div class="name-feild-group">
+          <label>Card Holder Name</label><br />
+
+          <input type="text" class="name-feild" placeholder="Full-Name" />
+        </div>
+        <div class="company-code-group">
+          <label>LCA code</label><br />
+
+          <input type="text" id="pa" placeholder="LCA241" />
+        </div>
+        <button type="button" class="Pay-btn" onclick="val()">Pay Now</button>
+        <script>
+          function val() {
+            var c = document.getElementById("pa").value;
+            if (c == "LCA241") {
+              swal({
+                title: "Payment Sucessfull",
+                text: "Enjoy our website!",
+                icon: "success",
+              });
+            } else {
+              swal({
+                title: "Payment Failed",
+                text: "Please try again!",
+                icon: "warning",
+              });
+            }
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
