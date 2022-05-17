@@ -1,0 +1,330 @@
+body{
+
+  background-color: #B1F2F7;
+}
+
+
+.a{
+
+  background-color: black;
+}
+
+
+.a1{
+  background-color: red;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+margin: 0 0 0 300px;
+}
+.b{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 4rem;
+  text-align: center;
+
+}
+
+hr{
+
+  background-color: black;
+  width: 10%;
+ border-width: 2000px;
+}
+
+.whasup{
+
+  border-radius: 50%;
+  float: left;
+margin-right: 20PX;
+}
+.max{border-radius: 50%;
+float: right;
+margin-right: 10PX;
+}
+
+.x{
+  height: 800px;
+  width:50%;
+  float:left;
+
+
+}
+
+.pikachu{
+
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.d{
+  color: #A93117;
+  font-size: 2rem;
+  font-family: 'Architects Daughter', cursive;
+
+}
+
+
+.e{
+
+color: #752F0A;
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+.g{
+  font-size: 30px;
+  color: blue;
+  font-family: 'Architects Daughter', cursive
+
+
+}
+
+.h{
+  font-size: 35px;
+  color: #752F0A;
+}
+
+.i{
+  font-size: 15px;
+  font-weight:  normal;
+}
+.s{
+text-align: center;}
+
+
+.f{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+
+
+}
+.w{
+background-color: yellow;
+
+}
+.v{
+
+  font-weight: bolder;
+}
+.max{
+background-color:red;
+
+}
+.sam{
+  color: white;
+}
+
+
+
+
+
+
+.q{
+
+  background-color: #ffe6e6;
+}
+
+
+.u{
+
+  font-family: 'Architects Daughter', cursive;
+  font-weight:  bolder;
+}
+
+.y{
+
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+
+
+}
+
+.z{
+
+font-family: 'Spline Sans', sans-serif;
+font-weight: lighter;
+
+}
+.qw{
+
+  background-color: #ff0080;
+  margin-bottom: 0;
+}
+.qwe{
+color: white;
+
+font-size: 30px;
+
+}
+
+.qwerty{
+
+  background-color: blue;
+}
+
+.jeremy{
+  font-family: 'Quicksand', sans-serif;
+font-size: 50px;
+text-align:  center;
+
+
+
+
+}
+.karma{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: white;
+
+
+}
+ul
+{
+  display:flex;
+  list-style:none;
+  margin: 20px 30px 30px 30px;
+}
+.grim{
+
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.karm{
+
+  font-size: 10px;
+}
+.noodles{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+
+
+}
+
+.hog{
+  background-color: pink;
+  font-size: 28px;
+
+}
+.mandy{
+margin:20px 20px 30px 30px;
+
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

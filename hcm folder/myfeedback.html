@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="icon" type="image/jpeg" href="logo.png" />
+    <meta charset="UTF-8" />
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="myfeedback.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">home</a></li>
+      </ul>
+    </nav>
+    <div class="heading">
+      <p>
+        Without wonder and insight, acting is just a business. With it, it
+        becomes creation.
+      </p>
+    </div>
+    <h1>Hope you enjoyed visiting <br />our website?</h1>
+    <div class="info">
+      <p>Please give your feedback:</p>
+    </div>
+    <div class="ara">
+      <textarea id="textarea" name="text" rows="6" cols="60"></textarea>
+    </div>
+    <br />
+    <div class="abc">Rating:</div>
+    >
+
+    <div class="rating-wraper">
+      <input type="radio" name="rating" id="star-1" /><label
+        for="star-1"
+      ></label>
+      <input type="radio" name="rating" id="star-2" /><label
+        for="star-2"
+      ></label>
+
+      <input type="radio" name="rating" id="star-3" /><label
+        for="star-3"
+      ></label>
+      <input type="radio" name="rating" id="star-4" /><label></label>
+      <input type="radio" name="rating" id="star-5" /><label></label>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <button onclick="validate()">
+      <span>Submit</span>
+    </button>
+    <script>
+      function validate() {
+        swal({
+          title: "Good job!",
+          text: "Your response is submitted!",
+          icon: "success",
+          button: "ok!",
+        });
+      }
+    </script>
+  </body>
+  </html>
+</html>
